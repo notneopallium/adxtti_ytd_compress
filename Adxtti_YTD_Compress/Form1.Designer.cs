@@ -56,9 +56,9 @@ namespace Adxtti_YTD_Compress
             this.label2.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(12, 415);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 13);
+            this.label2.Size = new System.Drawing.Size(115, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = ".YTD\'S LOADED:";
+            this.label2.Text = ".YTD\'S LOADED: nil";
             // 
             // button2
             // 
@@ -92,6 +92,7 @@ namespace Adxtti_YTD_Compress
             this.checkBox1.TabIndex = 5;
             this.checkBox1.Text = "1/2";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // label3
             // 
@@ -114,6 +115,7 @@ namespace Adxtti_YTD_Compress
             this.checkBox2.TabIndex = 7;
             this.checkBox2.Text = "CUSTOM SIZE";
             this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
             // button3
             // 

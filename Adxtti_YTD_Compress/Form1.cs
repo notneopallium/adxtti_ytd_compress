@@ -33,6 +33,33 @@ namespace Adxtti_YTD_Compress
             {
                 string[] files = openFileDialog.FileNames;
                 label2.Text = $".YTD'S LOADED: {files.Length}";
+                checkBox1.Enabled = true;
+                checkBox2.Enabled = true;
+            }
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+            {
+                checkBox2.Enabled = false;
+                MessageBox.Show("Your textures will compress to 1/2 of their size, meaning 2048x2048 to 1024x1024.", "Compression Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                checkBox2.Enabled = true;
+            }
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox2.Checked)
+            {
+                checkBox1.Enabled = false;
+            }
+            else
+            {
+                checkBox1.Enabled = true;
             }
         }
     }
