@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using CodeWalker.Core;
+using CodeWalker.GameFiles;
 
 namespace Adxtti_YTD_Compress
 {
@@ -89,7 +90,12 @@ namespace Adxtti_YTD_Compress
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            button5.Enabled = true;
+        }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            //
         }
     }
 }

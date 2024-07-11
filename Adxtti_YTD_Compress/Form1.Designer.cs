@@ -50,9 +50,9 @@ namespace Adxtti_YTD_Compress
             this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(12, 428);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(275, 12);
+            this.label1.Size = new System.Drawing.Size(375, 12);
             this.label1.TabIndex = 0;
-            this.label1.Text = "VERSION ALPHA - Software by Adxtti, Credits to dexyfex";
+            this.label1.Text = "VERSION ALPHA - Software by Adxtti, Credits to dexyfex, Credits to SharpDX";
             // 
             // label2
             // 
@@ -173,6 +173,7 @@ namespace Adxtti_YTD_Compress
             this.button5.TabIndex = 12;
             this.button5.Text = "START COMPRESSION";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // Form1
             // 
