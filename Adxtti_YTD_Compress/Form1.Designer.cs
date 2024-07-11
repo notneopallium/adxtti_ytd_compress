@@ -46,19 +46,19 @@ namespace Adxtti_YTD_Compress
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Consolas", 7F);
             this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(12, 428);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 13);
+            this.label1.Size = new System.Drawing.Size(275, 12);
             this.label1.TabIndex = 0;
-            this.label1.Text = "VERSION ALPHA";
+            this.label1.Text = "VERSION ALPHA - Software by Adxtti, Credits to dexyfex";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 415);
+            this.label2.Location = new System.Drawing.Point(11, 412);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(103, 13);
             this.label2.TabIndex = 1;

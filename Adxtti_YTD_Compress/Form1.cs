@@ -52,8 +52,7 @@ namespace Adxtti_YTD_Compress
             if (checkBox1.Checked)
             {
                 checkBox2.Enabled = false;
-                MessageBox.Show("Your textures will compress to 1/2 of their size, meaning 2048x2048 to 1024x1024.", "Compression Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                button5.Enabled = true;
+                MessageBox.Show("Your textures will compress to 1/2 of their size, meaning 2048x2048 to 1024x1024. Please define an output directory next.", "Compression Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 button4.Enabled = true;
             }
             else
@@ -82,7 +81,9 @@ namespace Adxtti_YTD_Compress
             checkBox1.Checked = false;
             checkBox2.Enabled = false;
             checkBox2.Checked = false;
-            label4.Text = "Progress: ";
+            label4.Text = "Progress: No files loaded";
+            button4.Enabled = false;
+            button5.Enabled = false;
         }
     }
 }
