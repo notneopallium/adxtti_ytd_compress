@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CodeWalker.Core;
 
 namespace Adxtti_YTD_Compress
 {
@@ -84,6 +85,11 @@ namespace Adxtti_YTD_Compress
             label4.Text = "Progress: No files loaded";
             button4.Enabled = false;
             button5.Enabled = false;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

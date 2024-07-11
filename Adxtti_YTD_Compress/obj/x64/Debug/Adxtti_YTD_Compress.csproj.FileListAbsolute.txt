@@ -7,3 +7,6 @@ C:\Users\Administrator\Documents\GitHub\Adxtti_YTD_Compress\Adxtti_YTD_Compress\
 C:\Users\Administrator\Documents\GitHub\Adxtti_YTD_Compress\Adxtti_YTD_Compress\obj\x64\Debug\Adxtti_YTD_Compress.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Documents\GitHub\Adxtti_YTD_Compress\Adxtti_YTD_Compress\obj\x64\Debug\Adxtti_YTD_Compress.exe
 C:\Users\Administrator\Documents\GitHub\Adxtti_YTD_Compress\Adxtti_YTD_Compress\obj\x64\Debug\Adxtti_YTD_Compress.pdb
+C:\Users\Administrator\Documents\GitHub\Adxtti_YTD_Compress\Adxtti_YTD_Compress\bin\x64\Debug\CodeWalker.Core.dll
+C:\Users\Administrator\Documents\GitHub\Adxtti_YTD_Compress\Adxtti_YTD_Compress\obj\x64\Debug\Adxtti_YTD_Compress.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\Adxtti_YTD_Compress\Adxtti_YTD_Compress\obj\x64\Debug\Adxtti_YTD_Compress.csproj.CopyComplete
