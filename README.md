@@ -10,8 +10,8 @@
 
 ## Features
 
-- Read .ytd files and choose rescale quality
-- Batch read .ytd files
-- Define .ytd file save output
+- Read .ytd files and choose rescale quality ❌
+- Batch read .ytd files ❌
+- Define .ytd file save output ❌
 - Choose 1/2 as compression method (ex: 2048x2048 will become 1024x1024)
 - Choose custom rescale size TO:DO
