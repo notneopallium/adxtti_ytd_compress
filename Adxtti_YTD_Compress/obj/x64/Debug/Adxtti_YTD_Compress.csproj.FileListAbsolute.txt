@@ -1,0 +1,9 @@
+C:\Users\Administrator\Documents\GitHub\Adxtti_YTD_Compress\Adxtti_YTD_Compress\bin\x64\Debug\Adxtti_YTD_Compress.exe.config
+C:\Users\Administrator\Documents\GitHub\Adxtti_YTD_Compress\Adxtti_YTD_Compress\bin\x64\Debug\Adxtti_YTD_Compress.exe
+C:\Users\Administrator\Documents\GitHub\Adxtti_YTD_Compress\Adxtti_YTD_Compress\bin\x64\Debug\Adxtti_YTD_Compress.pdb
+C:\Users\Administrator\Documents\GitHub\Adxtti_YTD_Compress\Adxtti_YTD_Compress\obj\x64\Debug\Adxtti_YTD_Compress.Form1.resources
+C:\Users\Administrator\Documents\GitHub\Adxtti_YTD_Compress\Adxtti_YTD_Compress\obj\x64\Debug\Adxtti_YTD_Compress.Properties.Resources.resources
+C:\Users\Administrator\Documents\GitHub\Adxtti_YTD_Compress\Adxtti_YTD_Compress\obj\x64\Debug\Adxtti_YTD_Compress.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\GitHub\Adxtti_YTD_Compress\Adxtti_YTD_Compress\obj\x64\Debug\Adxtti_YTD_Compress.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\GitHub\Adxtti_YTD_Compress\Adxtti_YTD_Compress\obj\x64\Debug\Adxtti_YTD_Compress.exe
+C:\Users\Administrator\Documents\GitHub\Adxtti_YTD_Compress\Adxtti_YTD_Compress\obj\x64\Debug\Adxtti_YTD_Compress.pdb
