@@ -29,10 +29,19 @@ namespace Adxtti_YTD_Compress
                 Multiselect = true,
                 Filter = "YTD files (*.ytd)|*.ytd"
             };
+
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 string[] files = openFileDialog.FileNames;
                 label2.Text = $".YTD'S LOADED: {files.Length}";
+                listBox1.Items.Clear();
+
+                foreach (string file in files)
+                {
+                    listBox1.Items.Add(file);
+                    label4.Text = "Progress: Files loaded";
+                }
+
                 checkBox1.Enabled = true;
                 checkBox2.Enabled = true;
             }
@@ -61,6 +70,17 @@ namespace Adxtti_YTD_Compress
             {
                 checkBox1.Enabled = true;
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+            label2.Text = ".YTD'S LOADED: 0";
+            checkBox1.Enabled = false;
+            checkBox1.Checked = false;
+            checkBox2.Enabled = false;
+            checkBox2.Checked = false;
+            label4.Text = "Progress: ";
         }
     }
 }
