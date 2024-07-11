@@ -53,6 +53,8 @@ namespace Adxtti_YTD_Compress
             {
                 checkBox2.Enabled = false;
                 MessageBox.Show("Your textures will compress to 1/2 of their size, meaning 2048x2048 to 1024x1024.", "Compression Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                button5.Enabled = true;
+                button4.Enabled = true;
             }
             else
             {
